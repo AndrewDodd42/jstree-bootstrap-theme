@@ -18,6 +18,9 @@
 @responsive:				true;
 @image-path:				"";
 @base-height:				30px;
+@theme-height:				22px;
+@theme-small-height:		18px;
+@theme-large-height:		32px;
 
 @import "../mixins.less";
 
@@ -58,7 +61,7 @@
 	.jstree-anchor,
 	.jstree-animated,
 	.jstree-wholerow {
-		transition: background-color 0.15s, box-shadow 0.15s; color: 0.15s
+		transition: background-color 0.15s, box-shadow 0.15s, color 0.15s
 	}
 	.jstree-hovered {
 		color: @hovered-text-color;
@@ -79,11 +82,6 @@
 	> .jstree-striped {
 		min-width: 100%;
 		display: inline-block;
-	}
-
-	// theme variants
-	.jstree-@{theme-name} {
-		.jstree-theme(22px, "@{image-path}32px.png", 32px);
 	}
 }
 
