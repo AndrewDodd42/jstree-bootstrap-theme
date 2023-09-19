@@ -25,7 +25,8 @@
   "devDependencies": {
     "grunt": "~0.4.0",
     "grunt-contrib-copy": "*",
-    "grunt-contrib-less": "~0.8.2"
+    "grunt-contrib-less": "~0.8.2",
+    "prettier": "2.5.1"
   },
   "dependencies": {
     "jquery": ">=1.9.1"
