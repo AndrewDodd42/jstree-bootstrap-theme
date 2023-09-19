@@ -21,7 +21,8 @@ module.exports = function(grunt) {
                 },
                 files: {
                     'dist/themes/default/style.min.css': 'src/themes/default/style.less',
-                    'dist/themes/proton/style.min.css': 'src/themes/proton/style.less'
+                    'dist/themes/proton/style.min.css': 'src/themes/proton/style.less',
+                    'dist/themes/mutiny/style.min.css': 'src/themes/mutiny/style.less'
                 }
             },
             development: {
@@ -29,7 +30,9 @@ module.exports = function(grunt) {
                     'src/themes/default/style.css': 'src/themes/default/style.less',
                     'dist/themes/default/style.css': 'src/themes/default/style.less',
                     'src/themes/proton/style.css': 'src/themes/proton/style.less',
-                    'dist/themes/proton/style.css': 'src/themes/proton/style.less'
+                    'dist/themes/proton/style.css': 'src/themes/proton/style.less',
+                    'src/themes/mutiny/style.css': 'src/themes/mutiny/style.less',
+                    'dist/themes/mutiny/style.css': 'src/themes/mutiny/style.less'
                 }
             }
         }
