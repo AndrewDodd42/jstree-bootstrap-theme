@@ -421,7 +421,7 @@
   background-repeat: repeat-y;
 }
 .jstree-mutiny .jstree-last {
-  background: transparent;
+  background-image: none;
 }
 .jstree-mutiny .jstree-open > .jstree-ocl {
   background-position: -133px -5px;
@@ -492,7 +492,7 @@
   background-repeat: repeat-y;
 }
 .jstree-mutiny.jstree-rtl .jstree-last {
-  background: transparent;
+  background-image: none;
 }
 .jstree-mutiny.jstree-rtl .jstree-open > .jstree-ocl {
   background-position: -133px -37px;
@@ -584,7 +584,7 @@
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAACAQMAAAB49I5GAAAABlBMVEUAAAAdHRvEkCwcAAAAAXRSTlMAQObYZgAAAAxJREFUCNdjAAMOBgAAGAAJMwQHdQAAAABJRU5ErkJggg==");
 }
 .jstree-mutiny.jstree-rtl .jstree-last {
-  background: transparent;
+  background-image: none;
 }
 .jstree-mutiny-small .jstree-node {
   min-height: 18px;
@@ -621,7 +621,7 @@
   background-repeat: repeat-y;
 }
 .jstree-mutiny-small .jstree-last {
-  background: transparent;
+  background-image: none;
 }
 .jstree-mutiny-small .jstree-open > .jstree-ocl {
   background-position: -135px -7px;
@@ -692,7 +692,7 @@
   background-repeat: repeat-y;
 }
 .jstree-mutiny-small.jstree-rtl .jstree-last {
-  background: transparent;
+  background-image: none;
 }
 .jstree-mutiny-small.jstree-rtl .jstree-open > .jstree-ocl {
   background-position: -135px -39px;
@@ -784,7 +784,7 @@
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAACAQMAAABv1h6PAAAABlBMVEUAAAAdHRvEkCwcAAAAAXRSTlMAQObYZgAAAAxJREFUCNdjAAMHBgAAiABBI4gz9AAAAABJRU5ErkJggg==");
 }
 .jstree-mutiny-small.jstree-rtl .jstree-last {
-  background: transparent;
+  background-image: none;
 }
 .jstree-mutiny-large .jstree-node {
   min-height: 28px;
@@ -821,7 +821,7 @@
   background-repeat: repeat-y;
 }
 .jstree-mutiny-large .jstree-last {
-  background: transparent;
+  background-image: none;
 }
 .jstree-mutiny-large .jstree-open > .jstree-ocl {
   background-position: -130px -2px;
@@ -892,7 +892,7 @@
   background-repeat: repeat-y;
 }
 .jstree-mutiny-large.jstree-rtl .jstree-last {
-  background: transparent;
+  background-image: none;
 }
 .jstree-mutiny-large.jstree-rtl .jstree-open > .jstree-ocl {
   background-position: -130px -34px;
@@ -984,7 +984,7 @@
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAACAQMAAAAD0EyKAAAABlBMVEUAAAAdHRvEkCwcAAAAAXRSTlMAQObYZgAAAAxJREFUCNdjgIIGBgABCgCBvVLXcAAAAABJRU5ErkJggg==");
 }
 .jstree-mutiny-large.jstree-rtl .jstree-last {
-  background: transparent;
+  background-image: none;
 }
 @media (max-width: 768px) {
   #jstree-dnd.jstree-dnd-responsive {
@@ -1135,7 +1135,7 @@
     background-repeat: repeat-y;
   }
   .jstree-mutiny-responsive .jstree-last {
-    background: transparent;
+    background-image: none;
   }
   .jstree-mutiny-responsive .jstree-leaf > .jstree-ocl {
     background-position: -30px -90px;
